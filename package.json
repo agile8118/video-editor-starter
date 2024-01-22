@@ -1,0 +1,16 @@
+{
+  "name": "video-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js --ignore ./public",
+    "cluster": "nodemon src/cluster.js --ignore ./public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cpeak": "^1.4.0"
+  }
+}
